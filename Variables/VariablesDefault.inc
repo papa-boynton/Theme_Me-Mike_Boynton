@@ -64,8 +64,6 @@ Skin.Width=(#DropdownMenuWidth#+2-(#DropdownMenuCutout#*2))
 Skin.Height=100
 
 UserKey=#SKINSPATH#Droptop\@Resources\GlobalVar\UserSettings.inc
-;Key2=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
-
 CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
