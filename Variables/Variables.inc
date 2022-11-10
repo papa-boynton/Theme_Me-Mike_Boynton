@@ -1,43 +1,43 @@
 [Variables]
-SavedThemeName1=Empty theme slot 1 
-SavedThemeAuthor1= 
-SavedThemeTime1=
-SavedThemeActive1=0
+SavedThemeName1=System Theme 
+SavedThemeAuthor1=by Mike Boynton 
+SavedThemeTime1=#CRLF#Saved 11/03/22 5:36 AM
+SavedThemeActive1=1
 
-SavedThemeName2=Empty theme slot 2
-SavedThemeAuthor2=
-SavedThemeTime2=
-SavedThemeActive2=0
+SavedThemeName2=My custom theme
+SavedThemeAuthor2=by Cari
+SavedThemeTime2=#CRLF#Saved 11/04/22 8:45 AM
+SavedThemeActive2=1
 
-SavedThemeName3=Empty theme slot 3
-SavedThemeAuthor3=
-SavedThemeTime3=
-SavedThemeActive3=0
+SavedThemeName3=Catppuccin
+SavedThemeAuthor3=by PyBash
+SavedThemeTime3=#CRLF#Saved 11/04/22 8:44 AM
+SavedThemeActive3=1
 
-SavedThemeName4=Empty theme slot 4
-SavedThemeAuthor4=
-SavedThemeTime4=
-SavedThemeActive4=0
+SavedThemeName4=Code Theme
+SavedThemeAuthor4=by Phan
+SavedThemeTime4=#CRLF#Saved 11/04/22 8:44 AM
+SavedThemeActive4=1
 
-SavedThemeName5=Empty theme slot 5
-SavedThemeAuthor5=
-SavedThemeTime5=
-SavedThemeActive5=0
+SavedThemeName5=Dracula
+SavedThemeAuthor5=by Bunz
+SavedThemeTime5=#CRLF#Saved 11/04/22 8:44 AM
+SavedThemeActive5=1
 
-SavedThemeName6=Empty theme slot 6
-SavedThemeAuthor6=
-SavedThemeTime6=
-SavedThemeActive6=0
+SavedThemeName6=Nord
+SavedThemeAuthor6=by Bunz
+SavedThemeTime6=#CRLF#Saved 11/04/22 8:43 AM
+SavedThemeActive6=1
 
-SavedThemeName7=Empty theme slot 7
-SavedThemeAuthor7=
-SavedThemeTime7=
-SavedThemeActive7=0
+SavedThemeName7=Tranquil_Purple
+SavedThemeAuthor7=by Bunz
+SavedThemeTime7=#CRLF#Saved 11/04/22 8:43 AM
+SavedThemeActive7=1
 
-SavedThemeName8=Empty theme slot 8
-SavedThemeAuthor8=
-SavedThemeTime8=
-SavedThemeActive8=0
+SavedThemeName8=Ice Cream
+SavedThemeAuthor8=by Phan
+SavedThemeTime8=#CRLF#Saved 11/04/22 8:43 AM
+SavedThemeActive8=1
 
 OverwriteText=Overwrite "[#SavedThemeName[#*CURRENTSECTION*]]"?
 
@@ -47,7 +47,7 @@ SavedText="Saved "
 
 ThemeSlotNumber=1
 
-varkey=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
+MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
 
 AppName=Theme Me
 AppVersion=1.0
@@ -55,7 +55,7 @@ AppCreators=Mike Boynton & Cariboudjan
 MaxFontSize=10
 OnOff=1
 hb=4
-OnOffText=On
+OnOffText=Hide
 InfoOnOffText=Off
 NumBoxes=2
 RoundTo=1
@@ -63,12 +63,12 @@ RoundTo=1
 Skin.Width=(#DropdownMenuWidth#+2-(#DropdownMenuCutout#*2))
 Skin.Height=100
 
-Key=#SKINSPATH#Droptop\@Resources\GlobalVar\UserSettings.inc
-Key2=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
+UserKey=#SKINSPATH#Droptop\@Resources\GlobalVar\UserSettings.inc
+;Key2=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
 
 CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
 CurrentFontSize=#DropdownItemFontSize#
-CurrentTheme=[#ThemeName[#ThemeNum]]
+CurrentTheme=Default Theme
 

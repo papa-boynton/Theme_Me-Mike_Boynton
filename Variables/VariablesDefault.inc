@@ -47,15 +47,15 @@ SavedText="Saved "
 
 ThemeSlotNumber=1
 
-varkey=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
+MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
 
 AppName=Theme Me
 AppVersion=1.0
 AppCreators=Mike Boynton & Cariboudjan
 MaxFontSize=10
-OnOff=0
+OnOff=1
 hb=4
-OnOffText=On
+OnOffText=Hide
 InfoOnOffText=Off
 NumBoxes=2
 RoundTo=1
@@ -63,12 +63,12 @@ RoundTo=1
 Skin.Width=(#DropdownMenuWidth#+2-(#DropdownMenuCutout#*2))
 Skin.Height=100
 
-Key=#SKINSPATH#Droptop\@Resources\GlobalVar\UserSettings.inc
-Key2=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
+UserKey=#SKINSPATH#Droptop\@Resources\GlobalVar\UserSettings.inc
+;Key2=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
 
 CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
 CurrentFontSize=#DropdownItemFontSize#
-CurrentTheme=[#ThemeName[#ThemeNum]]
+CurrentTheme=Default Theme
 
