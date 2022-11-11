@@ -47,7 +47,7 @@ SavedText="Saved "
 
 ThemeSlotNumber=1
 
-MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
+MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\Theme_Me-Mike_Boynton\Variables\Variables.inc
 
 AppName=Theme Me
 AppVersion=1.0
@@ -68,5 +68,4 @@ CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
 CurrentFontSize=#DropdownItemFontSize#
-CurrentTheme=Default Theme
 

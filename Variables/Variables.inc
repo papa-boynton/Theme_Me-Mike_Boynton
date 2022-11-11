@@ -1,42 +1,42 @@
 [Variables]
-SavedThemeName1=System Theme 
-SavedThemeAuthor1=by Mike Boynton 
-SavedThemeTime1=#CRLF#Saved 11/03/22 5:36 AM
+SavedThemeName1=Nord 
+SavedThemeAuthor1=by Bunz#CRLF#
+SavedThemeTime1=11/05/22 8:50 AM
 SavedThemeActive1=1
 
-SavedThemeName2=My custom theme
-SavedThemeAuthor2=by Cari
-SavedThemeTime2=#CRLF#Saved 11/04/22 8:45 AM
+SavedThemeName2=Code Theme
+SavedThemeAuthor2=by Phan#CRLF#
+SavedThemeTime2=11/05/22 8:51 AM
 SavedThemeActive2=1
 
-SavedThemeName3=Catppuccin
-SavedThemeAuthor3=by PyBash
-SavedThemeTime3=#CRLF#Saved 11/04/22 8:44 AM
+SavedThemeName3=Ice Cream
+SavedThemeAuthor3=by Phan#CRLF#
+SavedThemeTime3=11/05/22 8:52 AM
 SavedThemeActive3=1
 
-SavedThemeName4=Code Theme
-SavedThemeAuthor4=by Phan
-SavedThemeTime4=#CRLF#Saved 11/04/22 8:44 AM
+SavedThemeName4=Dracula
+SavedThemeAuthor4=by Bunz#CRLF#
+SavedThemeTime4=11/05/22 8:53 AM
 SavedThemeActive4=1
 
-SavedThemeName5=Dracula
-SavedThemeAuthor5=by Bunz
-SavedThemeTime5=#CRLF#Saved 11/04/22 8:44 AM
+SavedThemeName5=Catppuccin
+SavedThemeAuthor5=by PyBash#CRLF#
+SavedThemeTime5=11/05/22 8:53 AM
 SavedThemeActive5=1
 
-SavedThemeName6=Nord
-SavedThemeAuthor6=by Bunz
-SavedThemeTime6=#CRLF#Saved 11/04/22 8:43 AM
+SavedThemeName6=System Theme
+SavedThemeAuthor6=by Mike Boynton#CRLF#
+SavedThemeTime6=11/05/22 8:53 AM
 SavedThemeActive6=1
 
-SavedThemeName7=Tranquil_Purple
-SavedThemeAuthor7=by Bunz
-SavedThemeTime7=#CRLF#Saved 11/04/22 8:43 AM
+SavedThemeName7=#ThemeName99#
+SavedThemeAuthor7=by Cari#CRLF#
+SavedThemeTime7=11/05/22 8:54 AM
 SavedThemeActive7=1
 
-SavedThemeName8=Ice Cream
-SavedThemeAuthor8=by Phan
-SavedThemeTime8=#CRLF#Saved 11/04/22 8:43 AM
+SavedThemeName8=Tranquil_Purple
+SavedThemeAuthor8=by Bunz#CRLF#
+SavedThemeTime8=11/05/22 8:55 AM
 SavedThemeActive8=1
 
 OverwriteText=Overwrite "[#SavedThemeName[#*CURRENTSECTION*]]"?
@@ -47,7 +47,7 @@ SavedText="Saved "
 
 ThemeSlotNumber=1
 
-MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\ThemeMe-Mike_Boynton\Variables\Variables.inc
+MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\Theme_Me-Mike_Boynton\Variables\Variables.inc
 
 AppName=Theme Me
 AppVersion=1.0
@@ -68,5 +68,5 @@ CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
 CurrentFontSize=#DropdownItemFontSize#
-CurrentTheme=Default Theme
-
+CurrentTheme=System Theme by Mike Boynton
+ThemeType=Custom Theme
