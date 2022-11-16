@@ -47,8 +47,6 @@ SavedText="Saved "
 
 ThemeSlotNumber=1
 
-MyVarKey=#SKINSPATH#Droptop Community Apps\Apps\Theme_Me-Mike_Boynton\Variables\Variables.inc
-
 AppName=Theme Me
 AppVersion=1.0
 AppCreators=Mike Boynton & Cariboudjan
@@ -63,7 +61,6 @@ RoundTo=1
 Skin.Width=(#DropdownMenuWidth#+2-(#DropdownMenuCutout#*2))
 Skin.Height=100
 
-UserKey=#SKINSPATH#Droptop\@Resources\GlobalVar\UserSettings.inc
 CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
