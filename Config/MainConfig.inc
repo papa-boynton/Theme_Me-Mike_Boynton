@@ -30,7 +30,6 @@ CustomAppPosition=1
 @IncludeSystemTrayMeters=#DroptopMetersLocation#SystemTrayMeters.inc
 @IncludeLanguage=#GlobalVarLocation#Languages\[#Language[#LanguageNum]].inc
 @IncludeSupporter=#SKINSPATH#Droptop\@Resources\GlobalVar\Supporter.inc
-@IncludeSupporter=#SKINSPATH#Droptop\@Resources\GlobalVar\Supporter.inc
 @IncludeVariablesDefault=#CommunityAppsLocation#[#CustomAppID[#CustomApp[#CustomAppPosition]Num]]\Variables\VariablesDefault.inc
 @IncludeVariables=#CommunityAppsLocation#[#CustomAppID[#CustomApp[#CustomAppPosition]Num]]\Variables\Variables.inc
 
