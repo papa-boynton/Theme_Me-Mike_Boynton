@@ -41,7 +41,7 @@ SavedThemeActive8=0
 
 OverwriteText=Overwrite "[#SavedThemeName[#*CURRENTSECTION*]]"?
 
-LoadText="Activate  "
+LoadText="Load"
 DefaultThemeText=Empty theme slot [#*CURRENTSECTION*]
 SavedText="Saved "
 
@@ -49,8 +49,8 @@ ThemeSlotNumber=1
 
 AppName=Theme Me
 AppVersion=1.0
-AppCreators=Mike Boynton & Cariboudjan
-MaxFontSize=9
+AppCreators=TheyCallMePapa & Cariboudjan
+MaxFontSize=(9*#DroptopSize#)
 OnOff=1
 hb=4
 OnOffText=Hide
@@ -61,9 +61,21 @@ RoundTo=1
 Skin.Width=(#DropdownMenuWidth#+2-(#DropdownMenuCutout#*2))
 Skin.Height=100
 
+varkey=#SKINSPATH#Droptop Community Apps\Apps\Theme_Me-Mike_Boynton\Variables\Variables.inc
+
+PreviousAutoThemeChange=0
+
+ThemeChangeNum=1
+AutoChangeTime1=%j
+AutoChangeTime2=%H
+AutoChangeTime3=%M
+
 CurrentItemX=#DropdownMenuWidth#
 CurrentItemY=#DropdownItemHeight#
 CurrentBoxX=#DropdownMenuWidth#
 CurrentFontSize=#DropdownItemFontSize#
 
-Toggle24=1
+AutoThemeChangeOFF=1
+
+ThemeType=Droptop Theme
+CurrentTheme=Cathode Theme
