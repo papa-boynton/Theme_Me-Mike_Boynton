@@ -36,8 +36,6 @@ CustomAppPosition=1
 Padding0=([#ItemIsFolder[#*CURRENTSECTION*]]=1?#DropdownItemPadding1#:(#HideIcons#=1?#DropdownNoIconPadding#:#DropdownItemPadding1#)),#DropdownItemPaddingY#,(#DropdownItemPadding2#+((10*#DroptopSize#)*#RTLText#)),(#DropdownItemPaddingY#*-1)
 Padding1=#DropdownItemPadding2#,#DropdownItemPaddingY#,([#ItemIsFolder[#*CURRENTSECTION*]]=1?#DropdownItemPadding1#:(#HideIcons#=1?#DropdownNoIconPadding#:#DropdownItemPadding1#)),(#DropdownItemPaddingY#*-1)
 
-NumberOfDividers=2
-
 Box1=1
 Box2=2
 Box3=3
@@ -80,10 +78,12 @@ InlineSetting3=Color | #DropdownFontColor1#,0
 Text=[#ItemText[##CURRENTSECTION#]]
 LeftMouseDownAction=[#Action[#ItemIsFolder[##CURRENTSECTION#]]]
 Padding=[#Padding[#RTLText]]
-W=(#DropdownMenuWidth#+#SysAppMenuWOffset#-#DropdownItemPadding2#-#DropdownItemPadding1#+(#DropdownItemPadding1#*#HideIcons#)-((81*#DroptopSize#)*[#SavedThemeActive[#CURRENTSECTION]]))
+; W=(#DropdownMenuWidth#+#SysAppMenuWOffset#-#DropdownItemPadding2#-#DropdownItemPadding1#+(#DropdownItemPadding1#*#HideIcons#)-((0*#DroptopSize#)*[#SavedThemeActive[#CURRENTSECTION]]))
+W=#DropdownMenuWidth#
 MiddleMouseDownAction=[!SetVariable ThemeSlotNumber "[##CURRENTSECTION#]"][!UpdateMeasure "MeasureDeleteTheme"][!CommandMeasure MeasureDeleteTheme "Run"][!SetVariable SavedThemeName[#CURRENTSECTION] "#DefaultThemeText#"][!SetVariable SavedThemeAuthor[#CURRENTSECTION] ""][!SetVariable SavedThemeTime[#CURRENTSECTION] ""][!SetVariable SavedThemeActive[#CURRENTSECTION] "0"][!WriteKeyValue Variables SavedThemeName[#CURRENTSECTION] "#DefaultThemeText#" "#varkey#"][!WriteKeyValue Variables SavedThemeAuthor[#CURRENTSECTION] "" "#varkey#"][!SetOption [#CURRENTSECTION] Text "#DefaultThemeText#"][!WriteKeyValue Variables SavedThemeTime[#CURRENTSECTION] "" "#varkey#"][!WriteKeyValue Variables SavedThemeActive[#CURRENTSECTION] "0" "#varkey#"][!UpdateMeter *][!Redraw]
 
 [IconStyle]
+X=(#DropdownIconXoffset#+((#DropdownMenuWidth#-#DropdownIconXoffset#-#IconW#-#DropdownHLOffsetX#-(#DropdownIconPadding#*2))*#RTLText#)+#SysAppMenuXOffset#)
 ImageName=#CURRENTPATH#Icons\[#Icon[#ItemIsFolder[##CURRENTSECTION#]]].png
 Hidden=(#NumberOfItems#>=[##CURRENTSECTION#]?0:1)
 
