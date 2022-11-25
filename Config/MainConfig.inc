@@ -19,7 +19,7 @@ DefaultKeepOnScreen=0
 DefaultAutoSelectScreen=1
 
 [Variables]
-CustomAppPosition=1
+CustomAppPosition=3
 
 @IncludeControl=#SKINSPATH#Droptop\@Resources\GlobalVar\Control.inc
 @IncludeUserSettings=#GlobalVarLocation#UserSettings.inc
