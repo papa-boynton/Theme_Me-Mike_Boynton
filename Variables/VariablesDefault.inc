@@ -1,4 +1,18 @@
 [Variables]
+
+; -------------------------------------------------------------------------------
+; Below variables are required for the app's function. Do not remove or change.
+; -------------------------------------------------------------------------------
+
+MyAppID=Theme_Me-Mike_Boynton
+MyAppName=Theme Me
+MyAppAuthor=Mike Boynton
+MyVariablesLoc=#SKINSPATH#Droptop Community Apps\Apps\Theme_Me-Mike_Boynton\Variables\VariablesDefault.inc
+
+; -------------------------------------------------------------------------------
+; Add your variables below: 
+; -------------------------------------------------------------------------------
+
 SavedThemeName1=Empty theme slot 1 
 SavedThemeAuthor1= 
 SavedThemeTime1=
@@ -49,7 +63,7 @@ ThemeSlotNumber=1
 
 AppName=Theme Me
 AppVersion=1.0
-AppCreators=TheyCallMePapa & Cariboudjan
+AppCreators=Mike Boynton & Cariboudjan
 MaxFontSize=(9*#DroptopSize#)
 OnOff=1
 hb=4
