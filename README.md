@@ -36,7 +36,7 @@ Toggle random theme feature on/off
 Shows you the theme you are currently using.
 
 ## How to use
-
+Left click on slot to save theme.  Left click on "Load" to load saved theme. Left click on the "Using them X" button to access all Droptop themes.
 
 ## Download
 https://github.com/papa-boynton/Theme_Me-Mike_Boynton/releases/latest
