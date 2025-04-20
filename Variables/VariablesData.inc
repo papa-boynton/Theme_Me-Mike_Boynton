@@ -4,4 +4,4 @@
 ; Variables in this document should be used to control the app's general functionality.
 ; -------------------------------------------------------------------------------
 
-MyAppVersion=24.1116
+MyAppVersion=25.0326
