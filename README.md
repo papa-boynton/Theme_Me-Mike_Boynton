@@ -9,10 +9,11 @@
 <h4 align="center">Allows you to select a random Droptop theme and you can save up to eight custom themes and hot load them. No need to install a custom theme again once it is saved.</h4>
 
 <p align="center">
-  <a href="https://droptopfour.com/community-apps"><img alt="Dynamic version Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDroptop-Four%2FGlobalData%2Fmain%2Fdata%2Fcommunity_apps%2Fcommunity_apps.json&query=%24.apps%5B%3F(%40.app.name%20%3D%3D%20'Theme%20Me')%5D.app.version&prefix=v&label=Version&color=43ff64"></a>
+  <a href="https://droptopfour.com/community-apps"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDroptop-Four%2FGlobalData%2Fmain%2Fdata%2Fcommunity_apps%2Fcommunity_apps.json&query=%24.apps%5B78%5D%5B'version'%5D&prefix=v&label=Version&color=43ff64"></a>
   <a href="https://droptopfour.com"><img src="https://img.shields.io/badge/Droptop%20Four%20Website-43ff64"></a>
   <a href="https://droptopfour.com/discord"><img alt="Discord" src="https://img.shields.io/discord/800124057923485728"></a>
-  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/papa-boynton/Theme_Me-Mike_Boynton/total">
+  <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDroptop-Four%2FGlobalData%2Fmain%2Fdata%2Fcommunity_apps%2Fcommunity_apps.json&query=%24.apps%5B78%5D%5B'downloads'%5D&label=Downloads&color=d8624c">
+
 </p>
 
 <p align="center">
@@ -23,7 +24,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](Images/Screenshot.png)
+![screenshot](Images/PreviewImage.png)
 
 ## Key Features
 Toggle Theme Previews
@@ -35,7 +36,7 @@ Shows you the theme you are currently using.
 Left click on slot to save theme.  Left click on "Load" to load saved theme. Left click on the "Using them X" button to access all Droptop themes.
 
 ## Download
-https://github.com/papa-boynton/Theme_Me-Mike_Boynton/releases/latest
+[Droptop Four Community Apps](https://droptopfour.com/community-apps/)
 
 ## Credits
 Written by [TheyCallMePapa](https://github.com/papa-boynton) in collaboration with [Cariboudjan](https://github.com/Droptop-Four/)
