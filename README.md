@@ -36,7 +36,7 @@ Shows you the theme you are currently using.
 Left click on slot to save theme.  Left click on "Load" to load saved theme. Left click on the "Using them X" button to access all Droptop themes.
 
 ## Download
-https://github.com/papa-boynton/Theme_Me-Mike_Boynton/releases/latest
+[Droptop Four Community Apps](https://droptopfour.com/community-apps/)
 
 ## Credits
 Written by [TheyCallMePapa](https://github.com/papa-boynton) in collaboration with [Cariboudjan](https://github.com/Droptop-Four/)
