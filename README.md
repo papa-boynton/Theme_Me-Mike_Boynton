@@ -24,7 +24,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](Images/Screenshot.png)
+![screenshot](Images/PreviewImage.png)
 
 ## Key Features
 Toggle Theme Previews
