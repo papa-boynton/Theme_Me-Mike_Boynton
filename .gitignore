@@ -1,2 +1,6 @@
 Variables/Variables.inc
 SavedThemes/
+Config/MainConfig.inc
+Folder/Config/FolderConfig.inc
+Settings/Config/MainConfig.inc
+Settings/Folder/Config/FolderConfig.inc
