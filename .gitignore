@@ -1,2 +1,9 @@
 Variables/Variables.inc
 SavedThemes/
+<<<<<<< HEAD
+=======
+Config/MainConfig.inc
+Folder/Config/FolderConfig.inc
+Settings/Config/MainConfig.inc
+Settings/Folder/Config/FolderConfig.inc
+>>>>>>> 1ee7e42eabcea899064aa0487d49247884d04531
